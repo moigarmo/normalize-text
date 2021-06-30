@@ -3,6 +3,7 @@ Normalises input texts so the can be used as part of urls, removing all non alph
 Accepts chinise characters in which case they will be transformed to pinyin representation before normalizing.
 
 Arguments:
+
     - input, i: input file where texts are, supposed properties format key:value.
     - output, o: output file to add transformed texts
     - keyRegex, r: regular expression to search for keys in input file - default: ".*" (matches every key)
