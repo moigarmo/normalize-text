@@ -1,6 +1,6 @@
-Normalises input texts so the can be used as part of urls, removing all non alphanumeric characters and returning the words joined by - character.
+Normalises input texts so they can be used as part of urls, removing all non alphanumeric characters and returning the words joined by - character.
 
-Accepts chinise characters in which case they will be transformed to pinyin representation before normalizing.
+Accepts chinese characters, in which case they will be transformed to pinyin representation before normalizing.
 
 Arguments:
 
