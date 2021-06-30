@@ -1,0 +1,25 @@
+{
+  "name": "normalize-text",
+  "version": "1.0.0",
+  "description": "Normalises texts so they can be used as part of a url",
+  "main": "dist/app.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/app.js",
+    "preinstall": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "bin": "./bin/normalize-text",
+  "license": "ISC",
+  "dependencies": {
+    "minimist": "^1.2.5",
+    "pinyin": "^2.10.2"
+  },
+  "devDependencies": {
+    "@types/minimist": "^1.2.1",
+    "@types/node": "^15.12.5",
+    "@types/pinyin": "^2.8.2",
+    "typescript": "^4.3.4"
+  }
+}
